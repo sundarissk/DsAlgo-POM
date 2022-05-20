@@ -3,18 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.DsAlog.Qa.Tests.ArrayPageTest">
+      <class name="com.DsAlog.Qa.Tests.RegisterPageTestPojo">
         <methods>
-          <include name="setup"/>
-          <include name="ArraySelectionTest"/>
-          <include name="linkarrayTest"/>
           <include name="endoftest"/>
-          <include name="linkusinglistTest"/>
-          <include name="linkoperationslistTest"/>
-          <include name="APageModuleCountTest"/>
-          <include name="linkpythonclickTest"/>
+          <include name="startpageTest"/>
+          <include name="registerinputTest"/>
+          <include name="registerpageTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.DsAlog.Qa.Tests.ArrayPageTest -->
+      </class> <!-- com.DsAlog.Qa.Tests.RegisterPageTestPojo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
